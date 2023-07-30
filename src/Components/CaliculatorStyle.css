@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(255, 255, 255);    
+}
+.keypad{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 40px;
+    padding: 8px;
+}
+.item1{
+    height: 50px;
+    width:250px;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    font-weight: 200px;
+}
+.main{
+    background-color: navy;
+    height: 400px;
+    width: 410px;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid rgb(255, 255, 255);
+}
+#clear{
+    background-color: red;
+    grid-column: 1/3;
+}
+#c{
+    background-color: grey;
+}
+#equalls{
+    background-color: green;
+    grid-column: 3/5;
+    /* width: 100px; */
+}
+button{
+    border-radius: 10%;
+    height: 30px;
+    margin: 8px;
+}
